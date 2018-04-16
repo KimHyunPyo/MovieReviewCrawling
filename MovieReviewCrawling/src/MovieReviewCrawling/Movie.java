@@ -8,9 +8,15 @@ public class Movie
 	public String url;
 	public int Score;
 	public ArrayList<Review> review = new ArrayList<Review>();
+	public int MovieNum;
 	
 	
-	
+	public int getMovieNum() {
+		return MovieNum;
+	}
+	public void setMovieNum(int movieNum) {
+		MovieNum = movieNum;
+	}
 	public int getScore()
 	{
 		return Score;
